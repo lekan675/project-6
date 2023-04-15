@@ -385,9 +385,9 @@ Configure WordPress to connect to remote database.
 
 5. Configure SELinux for wordpress
 
- `sudo semanage fcontext -a -t httpd_sys_rw_content_t "/var/www/html/wordpress/.*?"`
+    `sudo semanage fcontext -a -t httpd_sys_rw_content_t "/var/www/html/wordpress/.*?"`
 
- ![semange command](./images/semanage%20command.jpg)
+    ![semange command](./images/semanage%20command.jpg)
 
 
  6. Try to access from your browser the link to your WordPress
