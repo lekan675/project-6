@@ -328,7 +328,7 @@ Configure WordPress to connect to remote database.
 
     `sudo yum install mysql`
 
-    `sudo mysql -u admin -p -h <DB-Server-Private-IP-address>`
+    `sudo mysql -u myuser -p -h <DB-Server-Private-IP-address>`
 
     ![Configure WordPress to connect to remote database](./images/install%20mysql.jpg)
 
